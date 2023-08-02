@@ -66,16 +66,16 @@ This repository contains a web app that has the following use-cases:
           - index.tsx    // React.js bootstraping shared between desktop and mobile
           - utils/
             - useLocalStorage.ts    // A utility to use LocalStorage in desktop and mobile web (in React.js components). It is a React.js hook
-      - desktop/
-        - components/
-          - UserList.tsx
-          - UserDetails.tsx
-      - mobile/
-        - components/
-          - UserList.tsx
-          - UserDetails.tsx
-      - server/
-        - index.ts    // Server-side rendering with React.js
+        - desktop/
+          - components/
+            - UserList.tsx
+            - UserDetails.tsx
+        - mobile/
+          - components/
+            - UserList.tsx
+            - UserDetails.tsx
+        - server/
+          - index.ts    // Server-side rendering with React.js
   - utils/    // Reusable utilities and helper functions. Not part of any layer in Clean Code Architecture.
     - localStorage.ts    // Logic for localStorage operation (including encryption)
     - validators/
